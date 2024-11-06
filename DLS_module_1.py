@@ -7,3 +7,5 @@ avg_score = {}
 for i in range(len(students)):
     avg_score[students[i]] = (sum(grades[i]) / len(grades[i]))
 print(avg_score)
+
+#{'Aaron': 4.0, 'Bilbo': 2.25, 'Johnny': 4.0, 'Khendrik': 3.6666666666666665, 'Steve': 4.8}
